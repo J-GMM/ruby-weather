@@ -1,6 +1,6 @@
-
-<body class=<%= @display_class %>>
-  <h1>Weather in <%= @snapshot.city %></h1>
+<!DOCTYPE html>
+<div class=<%= @display_class %>>
+  <h1>Weather in <%= @snapshot.city %>, <%= @snapshot.region %>, <%= @snapshot.country %></h1>
 
   <h2><%= @snapshot.weather_state %> as of <%= @created_dt %>.</h2>
   <h2>Today's High: <%= @snapshot.high_f %>°F</h2>
@@ -13,4 +13,4 @@
   <!-- Background Color gradient (white/blue/orange/red) based on current temperature -->
   <img src= <%= @weather_icon %> width="200" height="200"></img>
   <!-- Sunrise and sunset, loading images as needed -->
-</body>
+</div>

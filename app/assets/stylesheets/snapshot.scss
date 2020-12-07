@@ -6,34 +6,35 @@ body {
   text-align: center;
 }
 
-.80_up {
+div[class="80_up"] {
+  color: #FFFFFF;
   background-color: #FF6800;
 }
 
-.70_80 {
+div[class="70_80"] {
   background-color: #FF870F;
 }
 
-.60_70 {
+div[class="60_70"] {
   background-color: #FFB061;
 }
 
-.50_60 {
+div[class="50_60"] {
   background-color: #FFD9B3;
 }
 
-.40_50 {
+div[class="40_50"] {
   background-color: #FFF9F3;
 }
 
-.30_40 {
+div[class="30_40"] {
   background-color: #E6E6FF;
 }
 
-.20_30 {
+div[class="20_30"] {
   background-color: #BEBEFF;
 }
 
-.under_20 {
+div[class="under_20"] {
   background-color: #A2A2FF;
 }
