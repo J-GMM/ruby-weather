@@ -1,0 +1,14 @@
+<body class=<%= @display_class %>>
+<h1>Weather in <%= @snapshot.city %></h1>
+<h2><%= @snapshot.weather_state %> as of <%= @created_dt %>.</h2>
+<h2>Today's High: <%= @snapshot.high_f %>°F</h2>
+<h2>Current temperature: <%= @snapshot.temp_f %>°F</h2>
+<h2>Today's Low: <%= @snapshot.low_f %>°F</h2>
+
+<!-- Button to convert temperatures -->
+<!-- Find out how to format/convert dates and times -->
+<!-- Load image based on the current weather -->
+<!-- Background Color gradient (white/blue/orange/red) based on current temperature -->
+<img src= <%= @weather_icon %> width="200" height="200"></img>
+<!-- Sunrise and sunset, loading images as needed -->
+</body>

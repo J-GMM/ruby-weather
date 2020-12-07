@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city: MyString
+  region: MyString
+  country: MyString
+  high_f: 1.5
+  low_f: 1.5
+  temp_f: 1.5
+  high_c: 1.5
+  low_c: 1.5
+  temp_c: 1.5
+  wind_speed: 1.5
+  wind_dir: MyString
+  weather_state: MyString
+  datetime_zulu: MyString
+  predictability: 1.5
+  humidity: 1.5
+
+two:
+  city: MyString
+  region: MyString
+  country: MyString
+  high_f: 1.5
+  low_f: 1.5
+  temp_f: 1.5
+  high_c: 1.5
+  low_c: 1.5
+  temp_c: 1.5
+  wind_speed: 1.5
+  wind_dir: MyString
+  weather_state: MyString
+  datetime_zulu: MyString
+  predictability: 1.5
+  humidity: 1.5
