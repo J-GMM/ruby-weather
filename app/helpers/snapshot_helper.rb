@@ -1,14 +1,9 @@
 require 'json'
+require 'open-uri'
 
 module SnapshotHelper
-  # use try/catch blocks to display a request failed page
   def get_json(url)
     json_object = JSON.parse(open(url).read)
-  end
-
-  def current_time(time_zone, weather_response)
-    tz = ActiveSupport::TimeZone[time_zone].formatted_offset(false)
-    return weather_response.to_datetime.change(:offset => tz).strftime("%m/%d/%Y %H:%M UTC")
   end
 
   def get_color(temp)
