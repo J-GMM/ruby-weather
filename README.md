@@ -1,24 +1,15 @@
-# README
+# Single-page Weather Display using Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple weather display which uses REST API to pull the user's location via IP and display a summary of weather at their location.
 
-Things you may want to cover:
+Requirements
+* Ruby 2.6.3
+* Rails 6.0.3.4
 
-* Ruby version
+Gems required
+* json
+* socket
+* open-uri
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Just download this page, cd into its directory and run `bundle install`.
+Run `rails server` to start the server, and naviagate to the localhost address it provides using your browser.
